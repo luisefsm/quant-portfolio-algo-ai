@@ -1,0 +1,17 @@
+# Dependencies for the olive-oil tail-hedging framework.
+#
+# For an EXACT reproduction of the dissertation figures, pin these to the
+# versions used on the machine that produced the results:
+#     pip freeze > requirements.txt
+# The `arch` (GARCH) version in particular can shift the volatility screening
+# at the margin.
+
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+arch>=6.3
+matplotlib>=3.8
+openai>=1.40
+requests>=2.31
+openpyxl>=3.1
+ipython>=8.0
